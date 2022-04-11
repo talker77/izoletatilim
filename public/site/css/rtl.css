@@ -1,0 +1,3109 @@
+/*
+ * Title:   Travelo - Travel, Tour Booking HTML5 Template - RTL CSS file
+ * Author:  http://themeforest.net/user/soaptheme
+ */
+.pull-right {
+	float: left !important;
+}
+.pull-left {
+	float: right !important;
+}
+
+.no-lpadding {
+    padding-right: 0 !important;
+	padding-left: 0;
+}
+
+.no-rpadding {
+    padding-left: 0 !important;
+	padding-right: 0;
+}
+
+section#content {
+    text-align: right;
+}
+
+.body-blank {
+    right: 0;
+	left: auto;
+}
+
+input.input-text, textarea, span.custom-select {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+select {
+    padding: 8px 8px 8px 0;
+}
+
+.selector span.custom-select:before {
+    left: 0;
+	right: auto;
+}
+
+.selector span.custom-select:after {
+    left: 9px;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+	right: auto;
+}
+
+.fileinput .custom-fileinput {
+    right: 0;
+	left: auto;
+}
+
+.fileinput:after {
+    left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+	right: auto;
+}
+
+.checkbox:before, .radio:before {
+    right: 0;
+	left: auto;
+}
+
+.checkbox-inline, .radio-inline {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+button.full-width, input[type="button"].button.full-width, a.button.full-width {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+a.button.btn-mini {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+button.btn-extra, a.button.btn-extra, input[type="button"].button.btn-extra {
+    border-right: none;
+    margin-left: 10px;
+	margin-right: auto;
+	border-left: none;
+}
+
+button.btn-extra > i, a.button.btn-extra > i, input[type="button"].button.btn-extra > i {
+    text-align: left;
+    padding-left: 8px;
+	padding-right: 0;
+}
+
+button.btn-extra > i:after, a.button.btn-extra > i:after, input[type="button"].button.btn-extra > i:after {
+    right: 55px;
+    border-left: 16px solid transparent;
+	left: auto;
+	border-right: none;
+}
+
+button.btn-extra > span, a.button.btn-extra > span, input[type="button"].button.btn-extra > span {
+    padding: 0 35px 0 20px;
+    text-align: right;
+}
+
+button.btn-extra:hover, a.button.btn-extra:hover, input[type="button"].button.btn-extra:hover {
+    border-left: 1px solid transparent !important;
+	border-right: none;
+}
+
+.icon-check {
+    padding-left: 30px !important;
+    padding-right: 0 !important;
+}
+
+.icon-check:after {
+    left: 0;
+	right: auto;
+}
+
+.with-icon .icon {
+    left: 0;
+    margin: -17px !important 0 0;
+	right: auto;
+}
+
+.with-icon .input-text {
+    padding-left: 40px !important;
+	padding-right: 0;
+}
+
+.with-icon.input-large .input-text {
+    padding-left: 48px !important;
+	padding-right: 0;
+}
+
+.alert {
+    padding: 15px 70px 15px 15px;
+}
+
+.alert:before {
+    right: 20px;
+	left: auto;
+}
+
+.alert .close, .info-box .close {
+    left: 8px;
+	right: auto;
+}
+
+dl.term-description dt, dl.term-description dd {
+    float: right;
+}
+
+dl.term-description dt {
+    border-left: 1px solid #f5f5f5;
+    padding-left: 5px;
+	padding-right: 0;
+	border-right: none;
+}
+
+dl.term-description dd {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.dropcap:first-letter {
+    float: right;
+    margin-left: 6px;
+	margin-right: auto;
+}
+
+.dropcap.colored:first-letter {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+blockquote {
+    padding: 20px 40px 20px 20px;
+    border-right: none;
+	border-left: none;
+}
+
+blockquote:before {
+    margin-left: 4px;
+	margin-right: auto;
+}
+
+blockquote:after {
+    margin-right: 3px;
+	margin-left: auto;
+}
+
+blockquote.style1 {
+    border-right: 3px solid #fdb714;
+	border-left: none;
+}
+
+blockquote.style1 > span.triangle:before {
+    right: -1px;
+	left: auto;
+}
+
+.pagination > li {
+    float: right;
+    margin-left: 6px;
+	margin-right: auto;
+}
+
+.pagination > li.first, .pagination > li.prev {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.pagination > li.next, .pagination > li.last {
+    margin-right: 4px;
+	margin-left: auto;
+}
+
+.hover-effect:after {
+	right:0;
+	left: auto;
+}
+
+.hover-effect.style1:after {
+    right: 50%;
+    margin-right: -25px;
+	left: auto;
+	margin-left: auto;
+}
+
+.selected-effect:after {
+    right: 50%;
+    margin-right: -25px;
+	left: auto;
+	margin-left: auto;
+}
+
+.social-icons li {
+    float: right;
+}
+
+.social-icons li a {
+    margin-left: 4px;
+	margin-right: auto;
+}
+
+.social-icons li:last-child {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.five-stars-container {
+    text-align: right;
+}
+
+.five-stars-container .five-stars, .five-stars-container.editable-rating .ui-slider-range {
+    padding-right: 1px;
+	padding-left: 0;
+}
+
+.five-stars-container:before {
+    right: 1px;
+	left: auto;
+}
+
+.price {
+    float: left;
+    text-align: left;
+}
+
+.price-wrapper .price-per-unit {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+.time [class^="soap-icon"] {
+    float: right;
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+.badge-container .badge-content {
+    right: -10px;
+	left: auto;
+}
+
+.badge-container .badge-content.left-side {
+    left: -10px;
+    right: auto;
+}
+
+.suggestions.image-carousel.style2 .slides > li {
+    margin-left: 24px;
+	margin-right: auto;
+}
+
+.travelo-box.twitter-box .twitter-holder > ul li {
+    padding: 15px 40px 15px 0;
+}
+
+.travelo-box.twitter-box .twitter-holder > ul li:before {
+    right: 0;
+	left: auto;
+}
+
+.travelo-box.book-with-us-box li, .travelo-box.contact-us-box .contact-address li {
+    padding: 10px 40px 10px 0;
+}
+
+.travelo-box.book-with-us-box li > i, .travelo-box.contact-us-box .contact-address li > i {
+    right: 0;
+	left: auto;
+}
+
+.travelo-box.contact-us-box .contact-address li {
+    padding-right: 50px;
+	padding-left: 0;
+}
+
+.travelo-box.newsletter-box button {
+    margin-left: 0 !important;
+	margin-right: auto;
+}
+
+.column-2 > *, .column-3 > *, .column-4 > *, .column-5 > *, .column-5-no-margin > *, .constant-column-2 > *, .constant-column-3 > *, .constant-column-4 > *, .constant-column-5 > * {
+    float: right;
+}
+
+.column-2 > *, .constant-column-2 > * {
+    margin-left: 3%;
+	margin-right: auto;
+}
+
+.column-2 > *:nth-child(2n), .constant-column-2 > *:nth-child(2n) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.column-3 > *, .constant-column-3 > * {
+    margin-left: 3%;
+	margin-right: auto;
+}
+
+.column-3 > *:nth-child(3n), .constant-column-3 > *:nth-child(3n) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.column-4 > *, .constant-column-4 > * {
+    margin-left: 3%;
+	margin-right: auto;
+}
+
+.column-4 > *:nth-child(4n), .constant-column-4 > *:nth-child(4n) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.column-5 > *, .constant-column-5 > * {
+    margin-left: 3%;
+	margin-right: auto;
+}
+
+.column-5 > *:nth-child(5n), .constant-column-5 > *:nth-child(5n) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+ul.arrow li:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+ul.triangle li:before {
+    margin-left: 10px;
+    float: right;
+	margin-right: auto;
+}
+
+ul.circle li:before {
+    margin-left: 10px;
+    float: right;
+	margin-right: auto;
+}
+
+ul.check li:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+ul.chevron li {
+    padding-right: 30px !important;
+	padding-left: 0;
+}
+
+ul.chevron li:before {
+    right: 0;
+	left: auto;
+}
+
+ul.arrow-square li:before {
+    margin-left: 10px;
+    padding: 0 3px 0 2px;
+	margin-right: auto;
+}
+
+ul.decimal li:before {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+ul.upper-roman {
+    padding-right: 1.5em;
+	padding-left: 0;
+}
+
+ul.lower-latin {
+    padding-right: 1.25em;
+	padding-left: 0;
+}
+
+ul.upper-latin {
+    padding-right: 1.5em;
+	padding-left: 0;
+}
+
+ul.check-square li:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+ul.check-circle li:before {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.toggle-container .panel.style1 .panel-title > a:before {
+    margin-left: 16px;
+    float: right;
+	margin-right: auto;
+}
+
+.toggle-container .panel.style1 .panel-content {
+    padding: 10px 55px 15px 15px;
+}
+
+.toggle-container .panel.style1.arrow-left .panel-title > a {
+    padding-left: 36px;
+	padding-right: 0;
+}
+
+.toggle-container .panel.style1.arrow-left .panel-title > a:before {
+    left: 0;
+	right: auto;
+}
+
+.toggle-container .panel.style2 .panel-title > a:after {
+    left: 15px;
+	right: auto;
+}
+
+.toggle-container .panel.style2 .panel-content {
+    padding: 0 20px 30px 15px;
+}
+
+.tab-wrapper .tab-container .tab-content .tab-pane {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.tab-pane [class^="col-"], .tab-pane [class*=" col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tab-pane .row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.tab-container ul.tabs li {
+    float: right;
+    padding-left: 4px;
+	padding-right: 0;
+}
+
+.tab-container ul.tabs li:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.tab-container .tab-content .tab-pane > img {
+    margin: 0 0 0 15px;
+}
+
+.tab-container .tab-content .tab-pane .image-box .details {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.tab-container.style1 ul.tabs {
+    padding: 10px 10px 10px 0;
+}
+
+.tab-container.style1 ul.tabs li {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.tab-container.style1 ul.tabs li.active > a:after, .tab-container.style1 ul.tabs li:hover > a:after {
+    right: 50%;
+    margin-right: -10px;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+	left: auto;
+	margin-left: auto;
+}
+
+.tab-container.trans-style ul.tabs li a i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.tab-container.full-width-style ul.tabs {
+    float: right;
+}
+
+.tab-container.full-width-style ul.tabs li {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.tab-container.full-width-style ul.tabs li a {
+    border-left: 3px solid #f5f5f5;
+	border-right: none;
+}
+
+.tab-container.full-width-style ul.tabs li.active a {
+    border-left-color: transparent;
+}
+
+.tab-container.full-width-style.arrow-right ul.tabs li a {
+    margin-left: 4px;
+	margin-right: auto;
+}
+
+.tab-container.full-width-style.arrow-right ul.tabs li.active a {
+    margin-left: 0;
+    border-right: 2px solid #fdb714;
+	margin-right: auto;
+	border-left: none;
+}
+
+.tab-container.full-width-style.arrow-right ul.tabs li.active a:after {
+    right: 0;
+    border-right: 3px solid #fdb714;
+	left: auto;
+	border-left: none;
+}
+
+.tab-container.full-width-style .tab-content {
+    float: right;
+}
+
+.promo-box .action-section {
+    text-align: left;
+}
+
+.promo-box .image-container img {
+    right: 0;
+	left: auto;
+}
+
+.photo-gallery:not(.flex-direction-style) .flex-direction-nav, .image-carousel.style2 .flex-direction-nav {
+    left: 0;
+	right: auto;
+}
+
+.photo-gallery:not(.flex-direction-style) .flex-direction-nav li a, .image-carousel.style2 .flex-direction-nav li a {
+	text-align: right;
+	float: right;
+}
+
+.photo-gallery:not(.flex-direction-style) .flex-direction-nav li a.flex-prev, .image-carousel.style2 .flex-direction-nav li a.flex-prev {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.photo-gallery:not(.flex-direction-style) .flex-direction-nav li a.flex-prev:before, .image-carousel.style2 .flex-direction-nav li a.flex-prev:before {
+    right: 8px;
+	left: auto;
+}
+
+.photo-gallery:not(.flex-direction-style) .flex-direction-nav li a.flex-next:before, .image-carousel.style2 .flex-direction-nav li a.flex-next:before {
+    left: 9px;
+	right: auto;
+}
+
+.photo-gallery .flex-control-nav {
+    left: 30px;
+	right: auto;
+}
+
+.photo-gallery .flex-control-nav > li {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.photo-gallery.style3 .flex-direction-nav {
+    left: 10px;
+	right: auto;
+}
+
+.photo-gallery.style4 .flex-control-nav {
+    left: 25px;
+	right: auto;
+}
+
+.image-carousel.style1 .slides > li {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.image-carousel.style1 .slides > li:last-child {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.image-carousel.style1 .flex-direction-nav li a {
+	text-align: right;
+}
+
+.image-carousel.style1 .flex-direction-nav li a:before {
+    right: 9px;
+	left: auto;
+}
+
+.image-carousel.style1 .flex-direction-nav li a.flex-prev {
+    right: 10px;
+	left: auto;
+}
+
+.image-carousel.style1 .flex-direction-nav li a.flex-next {
+    left: 10px;
+	right: auto;
+}
+
+.image-carousel.style2 .slides > li {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+.image-carousel.style2 .slides > li:last-child {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.image-carousel.style3 .slides > li {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+.image-carousel.style3 .slides > li:last-child {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.image-carousel.style3 .flex-direction-nav li a {
+    text-align: right !important;
+}
+
+.image-carousel.style3 .flex-direction-nav li a:before {
+    right: 0;
+    left: 0;
+}
+
+.image-carousel.style3 .flex-direction-nav li a.flex-prev {
+    right: -80px;
+	left: auto;
+}
+
+.image-carousel.style3 .flex-direction-nav li a.flex-next {
+    left: -80px;
+	right: auto;
+}
+
+.image-style {
+    padding: 30px 30px 30px 0;
+}
+
+.image-style.style1 {
+    margin-left: 60px;
+	margin-right: auto;
+}
+
+.image-style.style1 .image-block {
+    margin-left: 25px;
+	margin-right: auto;
+}
+
+.image-style.style1 ul li {
+    margin: 0 0 10px 10px;
+}
+
+.image-style.style1:before {
+    left: -60px;
+	right: auto;
+}
+
+.image-style.style1:after {
+    left: -60px;
+    border-left: 60px solid transparent;
+	right: auto;
+	border-right: none;
+}
+
+.image-style.style2 .image-block {
+    padding-right: 50px;
+	padding-left: 0;
+}
+
+.image-box .box, .image-box.box {
+    text-align: right;
+}
+
+.image-box.style7 .opacity-wrapper, .image-box.style8 .opacity-wrapper, .image-box.style12 .opacity-wrapper {
+    right: 0;
+	left: auto;
+}
+
+.image-box.style2 figure {
+    float: right;
+}
+
+.image-box.style2 .details {
+    padding: 20px 270px 10px 20px;
+}
+
+.image-box.style4 .details .box-title {
+    float: right;
+}
+
+.image-box.style4 .details .goto-detail {
+    float: left;
+}
+
+.image-box.style5 figure figcaption, .image-box.style11 figure figcaption {
+    right: 0;
+	left: auto;
+}
+
+.image-box.style5 figure a:before, .image-box.style11 figure a:before {
+    right: 0;
+    left: 0;
+}
+
+.image-box.style8 figure {
+    float: right;
+}
+
+.image-box.style8 .details {
+    float: right;
+}
+
+.image-box.style10 .details a.button {
+    float: left;
+}
+
+.image-box.style12 figure {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+.image-box.style12 .details {
+    border-left: 1px solid #f5f5f5;
+    padding: 12px 25px 10px 20px;
+	border-right: none;
+}
+
+.image-box.style13 figure {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+.image-box.style13 .action {
+    float: left;
+}
+
+.image-box.style14 figure {
+    float: right;
+}
+
+.image-box.style14 .details {
+    margin-right: 63px;
+	margin-left: auto;
+}
+
+.image-box.style14 .price {
+    text-align: right;
+}
+
+.icon-box.style1 > i {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+.icon-box.style2 > i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.icon-box.style3 .numbers i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.icon-box.style5 > i {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+.icon-box.style5 .description {
+    padding: 14px 0 0 15px;
+}
+
+.icon-box.style6 > i, .icon-box.style7 > i {
+    float: right;
+}
+
+.icon-box.style6 .description, .icon-box.style7 .description {
+    padding-right: 70px;
+	padding-left: 0;
+}
+
+.icon-box.style7 .description {
+    padding-right: 80px;
+	padding-left: 0;
+}
+
+.icon-box.style8 i, .icon-box.style9 i {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon-box.style10 > i {
+    right: 50%;
+    margin-right: -36px;
+	left: auto;
+	margin-left: auto;
+}
+
+.icon-box.style11 > .icon-wrapper {
+    text-align: right;
+}
+
+.icon-box.style11 .details .box-title {
+    margin-right: 15px;
+	margin-left: auto;
+}
+
+.icon-box.style12 > .details {
+    padding-right: 10px;
+	padding-left: 0;
+}
+
+.listing-style1.hotel .feedback .review, .listing-style1.cruise .feedback .review {
+    float: left;
+}
+
+.listing-style1.hotel .action .button:last-child, .listing-style1.cruise .action .button:last-child {
+    float: left;
+}
+
+.listing-style1.flight .details, .listing-style1.car .details {
+    padding: 15px !important 0 0;
+}
+
+.listing-style1.flight .details .time > div {
+    float: right;
+}
+
+.listing-style1.flight .details .time > div > .icon {
+    float: right;
+}
+
+.listing-style1.flight .details .time > div > .icon + div {
+    padding-right: 24px;
+	padding-left: 0;
+}
+
+.listing-style1.flight .details .time > div:first-child {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.listing-style1.flight .details .time > div + div {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.listing-style1.cruise .time [class^="soap-icon"] {
+    float: right;
+}
+
+.listing-style1.cruise .time > div:first-child {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.listing-style1.cruise .time > div > div {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.listing-style1.car .amenities ul li, .listing-style3.car .amenities ul li {
+    float: right;
+}
+
+.listing-style3.hotel .box-title {
+    float: right;
+}
+
+.listing-style3.hotel .amenities {
+    float: left;
+}
+
+.listing-style3.hotel .details {
+    padding: 15px 20px 15px 0;
+}
+
+.listing-style3.hotel .details [class^="soap-icon"].circle {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+.listing-style3.hotel .details > * > *:first-child {
+    border-left: 1px solid #f5f5f5;
+    padding-right: 0;
+    padding-left: 15px;
+    text-align: right;
+	border-right: none;
+}
+
+.listing-style3.flight .box-title {
+    float: right;
+}
+
+.listing-style3.flight .amenities {
+    float: left;
+}
+
+.listing-style3.flight .details {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.listing-style3.flight .details .details-wrapper > * > *:first-child {
+    border-left: 1px solid #f5f5f5;
+    padding-right: 0;
+	padding-left: 0;
+	border-right: none;
+}
+
+.listing-style3.flight .details .details-wrapper > * > *:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.listing-style3.flight .details .details-wrapper .box-title {
+    margin: 0 0 15px 10px;
+}
+
+.listing-style3.flight .details .details-wrapper [class^="soap-icon"].circle {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+.listing-style3.flight .details .details-wrapper .time > div {
+    border-left: 1px solid #f5f5f5;
+    padding-right: 15px;
+	padding-left: 0;
+	border-right: none;
+}
+
+.listing-style3.flight .details .details-wrapper .time > div:last-child {
+    border-left: none;
+	border-right: none;
+}
+
+.listing-style3.flight .details .details-wrapper .time > div:first-child {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.listing-style3.flight .details .details-wrapper .time > div > div {
+    padding-right: 25px;
+	padding-left: 0;
+}
+
+.listing-style3.flight .details .details-wrapper .time .icon {
+    float: right;
+}
+
+.listing-style3.car figure {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.listing-style3.car .details .box-title {
+    float: right;
+}
+
+.listing-style3.car .details .logo {
+    margin: 3px 8px 0 0;
+    float: right;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 8px;
+	padding-left: 0;
+	border-left: none;
+}
+
+.listing-style3.car .details .character {
+    text-align: left;
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.listing-style3.cruise .details .character > div {
+    border-right: 1px solid #f5f5f5;
+	border-left: none;
+}
+
+.listing-style3.cruise .details .character > div:first-child {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.listing-style3.cruise .details .character > div:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.listing-style3.cruise .details .character [class^="soap-icon"] {
+    float: right;
+}
+
+.listing-style3.cruise .details .character .cruise-logo {
+    text-align: right;
+}
+
+.listing-style3.cruise .details .character .date > div, .listing-style3.cruise .details .character .departure > div {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.listing-style3.cruise .details .review .five-stars-container {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.listing-style3.cruise .details .review span {
+    float: right;
+}
+
+.tab-container .tab-pane > .listing-style3 .details {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.pricing-table .header > i {
+    float: right;
+    margin: 3px 0 0 8px;
+}
+
+.pricing-table .header .box-title {
+    float: right;
+}
+
+.pricing-table .features li {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.post .entry-date {
+    right: 0;
+	left: auto;
+}
+
+.blog-infinite .post.without-featured-item .entry-title, .blog-infinite .post.without-featured-item .excerpt-container, .single .post.without-featured-item .entry-title, .single .post.without-featured-item .excerpt-container {
+    padding-right: 50px;
+	padding-left: 0;
+}
+
+.blog-infinite .post-meta .entry-author, .single .post-meta .entry-author {
+    float: right;
+}
+
+.blog-infinite .post-meta .entry-author .icon, .single .post-meta .entry-author .icon {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.blog-infinite .post-meta .entry-action, .single .post-meta .entry-action {
+    float: left;
+}
+
+.blog-infinite .post-meta .entry-action > *, .single .post-meta .entry-action > * {
+    margin-right: 8px;
+	margin-left: auto;
+}
+
+.blog-infinite .post-meta .entry-action > * i, .single .post-meta .entry-action > * i {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.single .single-navigation .prev i {
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.single .single-navigation .next i {
+    margin-right: 20px;
+	margin-left: auto;
+}
+
+.about-author .avatar {
+    padding: 20px 0 20px 20px;
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.about-author .social-icons {
+    float: left;
+}
+
+.about-author .wrote-posts-count i {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.single .suggestions a.hover-effect:after {
+    right: 50%;
+    margin-right: -25px;
+	left: auto;
+	margin-left: auto;
+}
+
+.comment-list .the-comment .comment-text {
+    padding-left: 50px;
+	padding-right: 0;
+}
+
+.comment-list .avatar {
+    margin-left: 30px;
+    float: right;
+	margin-right: auto;
+}
+
+.comment-list ul.children {
+    padding-right: 50px;
+	padding-left: 0;
+}
+
+.author a {
+    margin-right: 1px;
+	margin-left: auto;
+}
+
+.testimonial.style1 .author, .testimonial.style2 .author {
+    right: 0;
+    left: 0;
+}
+
+.testimonial.style1 .author a, .testimonial.style2 .author a {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.testimonial.style1 .testimonial-control-nav {
+    float: left;
+}
+
+.testimonial.style1 .testimonial-control-nav > li {
+    float: right;
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+.testimonial.style2 .author {
+    padding-right: 25px;
+	padding-left: 0;
+}
+
+.testimonial.style2 .testimonial-direction-nav {
+    left: 0;
+	right: auto;
+}
+
+.testimonial.style2 .testimonial-direction-nav li {
+    float: right;
+}
+
+.testimonial.style2 .testimonial-direction-nav li a.testimonial-prev {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.testimonial.style2 .testimonial-direction-nav li a.testimonial-prev:before {
+    right: 8px;
+	left: auto;
+}
+
+.testimonial.style2 .testimonial-direction-nav li a.testimonial-next:before {
+    left: 9px;
+	right: auto;
+}
+
+.testimonial.style3 .author {
+    right: 50%;
+    margin-right: -50px;
+	left: auto;
+	margin-left: auto;
+}
+
+.testimonial.style3 .testimonial-direction-nav .testimonial-prev:before, .testimonial.style3 .testimonial-direction-nav .testimonial-next:before {
+    right: 15px;
+	left: auto;
+}
+
+.testimonial.style3 .testimonial-direction-nav .testimonial-prev {
+    right: 0;
+	left: auto;
+}
+
+.testimonial.style3 .testimonial-direction-nav .testimonial-next {
+    left: 0;
+	right: auto;
+}
+
+.team figure figcaption {
+    right: 0;
+    left: 0;
+}
+
+.opacity-overlay {
+    right: 0;
+	left: auto;
+}
+
+.opacity-overlay .spinner {
+    right: 50%;
+    margin-right: -16px;
+	left: auto;
+	margin-left: auto;
+}
+
+.popup-wrapper {
+    right: 0;
+	left: auto;
+}
+
+.popup-wrapper .popup-content {
+    text-align: right;
+}
+
+.style-changer {
+    text-align: right;
+}
+
+.style-changer .style-changer-header {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+.style-changer .style-changer-header .style-main-title {
+    float: right;
+}
+
+.style-changer .style-changer-header .style-toggle {
+    left: 15px;
+	right: auto;
+}
+
+.style-changer#style-changer {
+    right: -275px;
+	left: auto;
+}
+
+.style-changer#style-changer.opened {
+	right: 0;
+	left: auto;
+}
+
+.pace {
+    right: 0;
+	left: auto;
+}
+
+#header .topnav ul.quick-menu > li {
+    float: right;
+    margin-right: 20px;
+	margin-left: auto;
+}
+
+#header .topnav ul.quick-menu > li:first-child {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+#header .ribbon > a {
+    padding: 0 0 0 10px;
+}
+
+#header .ribbon > a:after {
+    left: 0;
+	right: auto;
+}
+
+#header .ribbon > ul.menu {
+    right: -15px;
+	left: auto;
+}
+
+#header .ribbon > ul.menu.right {
+    right: auto;
+    left: -10px;
+}
+
+#header .logo {
+    text-align: right;
+}
+
+#header .mobile-menu-toggle {
+	left:0;
+	right: auto;
+}
+
+#header.style1 .logo {
+    right: 50%;
+    margin-right: -77px;
+	left: auto;
+	margin-left: auto;
+}
+
+#header.style1 .social-icons {
+    float: left;
+}
+
+#header.style1 .contact-details {
+    float: right;
+}
+
+#header.style1 #main-menu ul.menu > li {
+    padding-right: 0;
+    padding-left: 0px;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#header.style1 #main-menu ul.menu > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#header.style2 .header-search {
+    text-align: right;
+}
+
+#header.style2 .header-search .where {
+    border-left: none;
+	border-right: none;
+}
+
+#header.style2 .header-search .check-in {
+    border-left: none;
+	border-right: none;
+}
+
+#header.style2 .header-search .check-out {
+    border-left: none;
+	border-right: none;
+}
+
+#header.style2 #main-menu ul.menu > li {
+    padding-right: 0;
+    padding-left: 0px;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+#header.style2 #main-menu ul.menu > li > a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#header.style3 #main-menu .menu {
+    margin-left: 40px;
+	margin-right: auto;
+}
+
+#header.style4 .topnav {
+    float: left;
+}
+
+#header.style4 #main-menu > ul.menu > li {
+    padding-right: 0;
+    padding-left: 0px;
+    margin-left: 2px;
+	margin-right: auto;
+}
+
+#header.style4 #main-menu > ul.menu > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#header.style6 .topnav {
+    float: right;
+    margin: 0 20px 22px 0;
+}
+
+#header.style6 #main-menu > ul.menu > li {
+    padding-right: 0;
+    padding-left: 0px;
+    margin-left: 2px;
+	margin-right: auto;
+}
+
+#header.style6 #main-menu > ul.menu > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#header.style7 .topnav {
+    float: right;
+}
+
+#header.style7 .contact-details .contact-email {
+    padding: 0 10px 0 0;
+}
+
+#header.style7 #main-menu > ul.menu {
+    float: left;
+}
+
+#header.style7 #main-menu > ul.menu > li {
+    padding-right: 0;
+    padding-left: 0px;
+    margin-left: 2px;
+	margin-right: auto;
+}
+
+#header.style7 #main-menu > ul.menu > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.lang-flag {
+    padding-right: 20px !important;
+	padding-left: 0;
+}
+
+#main-menu ul.menu, .chaser ul.menu {
+    float: left;
+}
+
+#main-menu ul.menu > li, .chaser ul.menu > li {
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#main-menu ul.menu > li:first-child, .chaser ul.menu > li:first-child {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+#main-menu ul.menu > li:last-child, .chaser ul.menu > li:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+#main-menu ul.menu > li > ul.right, .chaser ul.menu > li > ul.right {
+    right: auto;
+    left: -10px;
+}
+
+#main-menu ul.menu > li ul, .chaser ul.menu > li ul {
+    right: 0px;
+	left: auto;
+}
+
+#main-menu ul.menu > li ul li, .chaser ul.menu > li ul li {
+    text-align: right;
+}
+
+#main-menu ul.menu > li ul li > a, .chaser ul.menu > li ul li > a {
+    padding: 12px 18px 12px 20px;
+}
+
+#main-menu ul.menu > li li > ul, .chaser ul.menu > li li > ul {
+    right: 180px;
+	left: auto;
+}
+
+#main-menu ul.menu > li li > ul.right, .chaser ul.menu > li li > ul.right {
+    right: -180px;
+	left: auto;
+}
+
+/*#main-menu ul.menu > .megamenu-menu .megamenu-wrapper, .chaser ul.menu > .megamenu-menu .megamenu-wrapper {
+    right: 0;
+	left: auto;
+}*/
+
+#main-menu ul.menu > .megamenu-menu .megamenu-holder, .chaser ul.menu > .megamenu-menu .megamenu-holder {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#main-menu ul.menu > .megamenu-menu ul.megamenu > li > a, .chaser ul.menu > .megamenu-menu ul.megamenu > li > a {
+	padding-right: 40px;
+	padding-left: 0;
+}
+
+#main-menu ul.menu > .megamenu-menu ul.megamenu > li > ul > li, .chaser ul.menu > .megamenu-menu ul.megamenu > li > ul > li {
+    float: right;
+}
+
+#main-menu ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li, .chaser ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#main-menu ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a, .chaser ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+#main-menu ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a:before, .chaser ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a:before {
+    right: 25px;
+	left: auto;
+}
+
+ul.menu.mini li a {
+    text-align: right;
+}
+
+#header .mobile-menu {
+    text-align: right;
+}
+
+#header .mobile-menu > ul.menu > li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#header .mobile-menu > ul.menu > li.menu-item-has-children > .dropdown-toggle {
+    left: 1px;
+	right: auto;
+}
+
+#header .mobile-menu > ul.menu > li > ul li > a {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+#header .mobile-menu > ul.menu > li > ul li > a:before {
+    right: 0px;
+	left: auto;
+}
+
+#header .mobile-menu > ul.menu > li > ul li.menu-item-has-children > a {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+#header .mobile-menu > ul.menu > li li li.menu-item-has-children > a {
+    padding-right: 10px;
+	padding-left: 0;
+}
+
+#header .mobile-menu .mobile-topnav > li {
+    float: right;
+}
+
+#header .mobile-menu .mobile-topnav > li:after {
+    left: -1px;
+	right: auto;
+}
+
+#header .mobile-menu .mobile-topnav > li:first-child a {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+#header .mobile-menu .mobile-topnav .menu.mini {
+    right: 0;
+	left: auto;
+}
+
+#header .mobile-menu .mobile-topnav .menu.mini.right {
+    right: 0;
+    left: auto;
+}
+
+.chaser {
+    right: 0;
+    left: 0;
+    left: 0;
+	right: auto;
+}
+
+.travelo-signup-box .login-social .button, .travelo-login-box .login-social .button {
+    text-align: right;
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.travelo-signup-box .login-social .button i, .travelo-login-box .login-social .button i {
+    margin-left: 36px;
+    float: right;
+	margin-right: auto;
+}
+
+.travelo-signup-box .seperator label, .travelo-login-box .seperator label {
+    right: 50%;
+	left: auto;
+}
+
+.travelo-signup-box .form-group, .travelo-login-box .form-group {
+    text-align: right;
+}
+
+.travelo-signup-box .signup-email i {
+    margin-left: 4px;
+	margin-right: auto;
+}
+
+.travelo-login-box .checkbox-inline {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.slideshow-bg #slideshow {
+    right: 0;
+	left: auto;
+}
+
+.slideshow-bg .flexslider .slidebg {
+    right: 0;
+    left: 0;
+}
+
+.page-title-container .breadcrumbs li {
+    float: right;
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+.page-title-container .breadcrumbs li a {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+.page-title-container.style1 {
+    text-align: left;
+}
+
+.page-title-container.style1 button {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.page-title-container.style1 .container:before {
+    right: 0;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+	left: auto;
+}
+
+.page-title-container.style2{
+	text-align:left;
+}
+
+.page-title-container.style2 .page-title {
+    float: right;
+}
+
+.page-title-container.style2 .breadcrumbs {
+    float: left;
+}
+
+.page-title-container.style2 .page-title:after{
+	left:-100px;
+	right: auto;
+}
+
+.page-title-container.style2 .breadcrumbs:before{
+	right:-135px;
+	left: auto;
+}
+
+.page-title-container.style4 {
+    text-align: left;
+}
+
+.page-title-container.style4 .page-title {
+    float: right;
+    padding-left: 20px;
+	padding-right: 0;
+}
+
+.page-title-container.style4 .page-title:after {
+    left: -20px;
+    border-right: 20px solid #fdb714;
+	right: auto;
+	border-left: none;
+}
+
+.page-title-container.style4 .page-title i {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.page-title-container.style4 .page-title .entry-title {
+    float: right;
+}
+
+.page-title-container.style4 .container:before {
+    left: -100%;
+	right: auto;
+}
+
+.page-title-container.style4 .breadcrumbs {
+    float: left;
+}
+
+.page-title-container.style4 .breadcrumbs li:before {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.page-title-container.style5 .page-title {
+    float: right;
+    margin-left: 25px;
+	margin-right: auto;
+}
+
+.page-title-container.style5 .breadcrumbs {
+    float: right;
+}
+
+.page-title-container.style5 .breadcrumbs li:before {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.page-title-container.style5 .breadcrumbs:before {
+    float: right;
+    margin-left: 25px;
+	margin-right: auto;
+}
+
+.page-title-container.style5 .social-icons {
+    float: left;
+}
+
+.page-title-container.style6 .page-title {
+    float: right;
+    margin-left: 25px;
+	margin-right: auto;
+}
+
+.page-title-container.style6 .breadcrumbs {
+    float: right;
+}
+
+.page-title-container.style6 .breadcrumbs li:before {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.page-title-container.style6 .breadcrumbs:before {
+    float: right;
+    margin-left: 25px;
+	margin-right: auto;
+}
+
+.page-title-container.style6 .search-box {
+    float: left;
+}
+
+.marker-holder {
+    right: 0;
+	left: auto;
+}
+
+.marker-holder .image-box {
+    right: 0;
+	left: auto;
+}
+
+.marker-holder .image-box figure {
+    float: right;
+}
+
+.marker-holder .image-box .details {
+    margin-right: 150px;
+	margin-left: auto;
+}
+
+.marker-holder .image-box .details .title img {
+    margin-left: 3px;
+	margin-right: auto;
+}
+
+.marker-holder .image-box .details .table-cell {
+    padding: 10px 10px 10px 20px;
+}
+
+.marker-holder .image-box .details .table-cell:first-child {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.marker-holder .image-box:after {
+    right: 180px;
+	left: auto;
+}
+
+ul.search-tabs li {
+    float: right;
+    padding-left: 4px;
+	padding-right: 0;
+}
+
+.search-box .bx-wrapper .bx-viewport {
+    right: 0;
+	left: auto;
+}
+
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs {
+    float: right;
+}
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs li {
+    margin-left: 0;
+    padding-left: 0;
+	padding-right: 0;
+	margin-right: auto;
+}
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs li > a {
+    border-left: 1px solid #0d9dec;
+    padding-right: 50px;
+	padding-left: 0;
+	border-right: none;
+}
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs li > a > i {
+    right: 15px;
+	left: auto;
+}
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs li.active > a {
+    border-left-color: #fff;
+}
+
+.search-box-wrapper.style1 .search-box > ul.search-tabs li.active > a:after {
+    left: 15px;
+	right: auto;
+}
+
+.search-box-wrapper.style1 .search-tab-content {
+    float: right;
+}
+
+.search-box-wrapper.style1 .search-tab-content .title-container {
+    padding: 15px 25px 0 40px;
+}
+
+.search-box-wrapper.style1 .search-tab-content .title-container > i {
+    left: 25px;
+	right: auto;
+}
+
+.search-box-wrapper.style2 .search-box > ul.search-tabs li {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+.search-box-wrapper.style2 .search-box > ul.search-tabs li:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.search-box-wrapper.style2 .search-box > ul.search-tabs li > a i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.search-box-wrapper.style2 .search-tab-content .tab-pane [class^="col-"], .search-box-wrapper.style2 .search-tab-content .tab-pane [class*=" col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.search-box-wrapper.style2 .search-tab-content .tab-pane .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.sort-by-section li {
+    float: right;
+}
+
+&:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.sort-by-section .sort-by-title {
+    margin: 15px 0 0 20px;
+    float: right;
+}
+
+.sort-by-section .sort-bar {
+    float: right;
+}
+
+.sort-by-section .sort-bar .sort-by-container > span {
+    padding: 0 15px 0 45px;
+}
+
+.sort-by-section .sort-bar .sort-by-container > span:after {
+    left: 0;
+	right: auto;
+}
+
+.sort-by-section .sort-bar .sort-by-container:before, .sort-by-section .sort-bar .sort-by-container:after {
+    left: 12px;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+	right: auto;
+}
+
+.sort-by-section .swap-tiles {
+    float: left;
+}
+
+.filters-container.toggle-container .panel.style1 .panel-title {
+    padding-right: 5px;
+	padding-left: 0;
+}
+
+.search-results-title > i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.filters-container ul.filters-option li small {
+    float: left;
+}
+
+.filters-container ul.filters-option li:before {
+    float: right;
+}
+
+.detailed-logo .box-title > small > i {
+    float: right;
+    margin-left: 3px;
+	margin-right: auto;
+}
+
+#hotel-main-content .calendar table tbody td, #flight-main-content .calendar table tbody td, #cruise-main-content .calendar table tbody td {
+    padding: 0 0 5px 5px;
+    text-align: left;
+}
+
+#hotel-main-content .calendar table tbody td > a:before, #hotel-main-content .calendar table tbody td > span:before, #flight-main-content .calendar table tbody td > a:before, #flight-main-content .calendar table tbody td > span:before, #cruise-main-content .calendar table tbody td > a:before, #cruise-main-content .calendar table tbody td > span:before {
+    right: 0;
+    left: 0;
+}
+
+#hotel-main-content .calendar table tbody td .price-text, #flight-main-content .calendar table tbody td .price-text, #cruise-main-content .calendar table tbody td .price-text {
+    left: 5px;
+	right: auto;
+}
+
+#hotel-main-content .calendar-legend label, #flight-main-content .calendar-legend label, #cruise-main-content .calendar-legend label {
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#hotel-main-content .calendar-legend label:before, #flight-main-content .calendar-legend label:before, #cruise-main-content .calendar-legend label:before {
+    float: right;
+    margin-left: 4px;
+	margin-right: auto;
+}
+
+#hotel-description .intro.table-wrapper .table-cell:last-child, #hotel-reviews .intro.table-wrapper .table-cell:last-child, #hotel-write-review .intro.table-wrapper .table-cell:last-child, #car-details .intro.table-wrapper .table-cell:last-child, #flight-details .intro.table-wrapper .table-cell:last-child, #cruise-description .intro.table-wrapper .table-cell:last-child, #cruise-reviews .intro.table-wrapper .table-cell:last-child, #cruise-write-review .intro.table-wrapper .table-cell:last-child, #travel-guide .intro.table-wrapper .table-cell:last-child, #tour-details .intro.table-wrapper .table-cell:last-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#hotel-description .features label, #cruise-description .features label, #travel-guide .features label {
+    border-left: 1px solid #f5f5f5;
+    margin-left: 20px;
+	margin-right: auto;
+	border-right: none;
+}
+
+#hotel-availability .update-search [class^="col-"], #hotel-availability .update-search [class*=" col-"], #cruise-availability .update-search [class^="col-"], #cruise-availability .update-search [class*=" col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+&:last-child {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+#hotel-availability .update-search .row, #cruise-availability .update-search .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+#hotel-availability .room-list .box .price-section, #hotel-availability .room-list .box .action-section, #cruise-availability .room-list .box .price-section, #cruise-availability .room-list .box .action-section {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+#hotel-reviews .guest-reviews .comment-container, #cruise-reviews .guest-reviews .comment-container {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+#hotel-faqs .topics li, #flight-fare-rules .topics li {
+    border-left: 1px solid #fff;
+    padding-right: 15px;
+	padding-left: 0;
+	border-right: none;
+}
+
+.image-box.style2.activities.innerstyle .details {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.image-box.style2.activities .review-score {
+    float: left;
+}
+
+.image-box.style2.activities .five-stars-container {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+#hotel-write-review .photo .details, #cruise-write-review .photo .details {
+    padding-left: 15px;
+	padding-right: 0;
+}
+
+#hotel-write-review .detailed-rating, #cruise-write-review .detailed-rating {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+#hotel-write-review .sort-trip li, #cruise-write-review .sort-trip li {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.overall-rating .star-rating .five-stars-container {
+    float: right;
+}
+
+.overall-rating .star-rating .status {
+    float: right;
+    margin-right: 25px;
+    padding: 0 10px 0 15px;
+	margin-left: auto;
+}
+
+.overall-rating .star-rating .status:before {
+    border-left: 15px solid #01b7f2;
+    right: -15px;
+	left: auto;
+	border-right: none;
+}
+
+.detailed-rating li .five-stars-container {
+    float: left;
+}
+
+.guest-review .author {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.guest-review .comment-container .comment-title {
+    float: right;
+}
+
+.guest-review .comment-container .review-score {
+    float: left;
+}
+
+.guest-review .comment-container .review-score .score {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+.booking-details figure > a:first-child {
+    float: right;
+}
+
+.booking-details figure .travel-title {
+    margin-right: 90px;
+	margin-left: auto;
+}
+
+.booking-details .details {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.booking-details .timing {
+    text-align: left;
+}
+
+.booking-details .timing .check-out {
+    text-align: right;
+}
+
+.booking-details .other-details {
+    text-align: left;
+}
+
+.booking-details .other-details dt {
+    float: right;
+    text-align: right;
+}
+
+.booking-information > .booking-confirmation > .icon {
+    float: right;
+    margin-left: 12px;
+	margin-right: auto;
+}
+
+.booking-information > .booking-confirmation > .message {
+    float: right;
+}
+
+.booking-information > .booking-confirmation .print-button {
+    float: left;
+}
+
+.flight-routes .box .details {
+    margin-right: 55px;
+	margin-left: auto;
+}
+
+.flight-routes .box .button {
+    margin: 12px 0 0 5px;
+}
+
+.flight-detail-page .detailed-logo .duration i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+#flight-details .flights .table-cell {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+#flight-details .flights .table-cell:last-child {
+    border-left: none;
+	border-right: none;
+}
+
+#flight-details .flights .first-flight .logo:after {
+    left: -5px;
+	right: auto;
+}
+
+#flight-details .flights .layover {
+    right: 50%;
+    margin: 0 -50px 0 0;
+	left: auto;
+}
+
+.explore-more {
+    padding: 10px 4px 0 0;
+}
+
+.explore-more .intro {
+    margin-right: 12px;
+	margin-left: auto;
+}
+
+.explore-more .intro i {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.explore-more .box {
+    padding-left: 4px;
+    float: right;
+	padding-right: 0;
+}
+
+.explore-more .box figure figcaption {
+    padding-left: 20px;
+	padding-right: 0;
+}
+
+#car-details .detailed-features > [class^="col-"]:first-child {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+#car-details .detailed-features .box-title {
+    padding: 25px 25px 25px 0;
+}
+
+#car-details .detailed-features .icon-box {
+    margin: 15px 20px 30px 0;
+}
+
+/* 5.4. Cruise ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.top-cruise-destinations .details .row > div {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.top-cruise-destinations .details .row > div:last-child {
+    border-left: none;
+	border-right: none;
+}
+
+.cruise-line-deals .box .details {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cruise-booking-form .radio:first-child {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+#hotel-availability .room-list .box-title dt, #hotel-availability .room-list .box-title dd, #cruise-availability .room-list .box-title dt, #cruise-availability .room-list .box-title dd, #cruise-food-dinning .food-dinning-list .box-title dt, #cruise-food-dinning .food-dinning-list .box-title dd {
+    float: right;
+}
+
+#hotel-availability .room-list .box-title dt, #cruise-availability .room-list .box-title dt, #cruise-food-dinning .food-dinning-list .box-title dt {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+#cruise-food-dinning .food-dinning-list figure {
+    margin: 0 0 10px 20px;
+}
+
+#cruise-food-dinning .food-dinning-list .review-score {
+    float: left;
+}
+
+#cruise-food-dinning .food-dinning-list .review-score .five-stars-container {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+#tour-details .price-section {
+    padding: 25px 25px 0 20px;
+}
+
+#tour-details .price-section .details {
+    float: right;
+}
+
+#tour-details .price-section .details:last-child {
+    float: left;
+}
+
+#tour-details .price-section .price {
+    text-align: right;
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#tour-details .flights .table-cell:first-child {
+    padding-right: 25px;
+    border-right: none;
+    text-align: right;
+	padding-left: 0;
+	border-left: none;
+}
+
+#tour-details .flights .table-cell:last-child {
+    border-left: none;
+	border-right: none;
+}
+
+#tour-details .flights .icon {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+#tour-details .intro2 .image-container {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+#tour-details .intro2 .term-description dt {
+    border-left: none;
+	border-right: none;
+}
+
+#tour-details .intro2 .price-section {
+    border-right: 1px solid #f5f5f5;
+    padding-right: 30px;
+	padding-left: 0;
+	border-left: none;
+}
+
+#tour-details .intro2 .price-section .price {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.tour-packages .box figcaption {
+    right: 10px;
+    left: 10px;
+}
+
+.tour-locations .box .features li {
+    padding: 0.8em 18px 0.8em 0;
+}
+
+.tour-locations .box .features li:before {
+    right: 2px;
+	left: auto;
+}
+
+#content.tour .slideshow-bg .flexslider {
+    right: 0;
+	left: auto;
+}
+
+#content.tour .search-box {
+    text-align: right;
+}
+
+#content.tour .search-box .row {
+    margin-right: -6px;
+    margin-left: -6px;
+}
+
+#content.tour .search-box [class^="col-"], #content.tour .search-box [class*=" col-"] {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+#content.tour .search-box .selector span.custom-select:before {
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    left: 7px;
+	right: auto;
+}
+
+#content.tour .search-box .selector span.custom-select:after {
+    left: 7px;
+	right: auto;
+}
+
+#content.tour .button {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#dashboard .fact .numbers dl {
+    float: left;
+    text-align: left;
+}
+
+#dashboard .fact .description > .icon {
+    float: left;
+}
+
+#dashboard .notifications .icon-box {
+    padding-left: 15px;
+	padding-right: 0;
+}
+
+#dashboard .notifications .box-title {
+    padding: 14px 57px 15px 5px;
+}
+
+#dashboard .notifications .price {
+    text-align: right;
+}
+
+#dashboard .recent-activity ul .icon {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#profile .personal-details .details {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+#profile .term-description dd {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+#booking .filter-section {
+    padding: 10px 5px 5px 15px;
+}
+
+#booking .filter-section button {
+    margin-right: 8px;
+	margin-left: auto;
+}
+
+#booking .booking-info div.date {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+#booking .booking-info .icon {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+#booking .booking-info .box-title {
+    float: right;
+}
+
+#booking .booking-info .box-title small {
+    padding-right: 43px;
+	padding-left: 0;
+}
+
+#booking .booking-info .status {
+    float: left;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#booking .booking-info .info {
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #f5f5f5;
+	padding-left: 0;
+	border-left: none;
+}
+
+#wishlist .image-box .box .details {
+    padding-left: 15px;
+	padding-right: 0;
+}
+
+.dashboard #footer .footer-wrapper #main-menu ul.menu > li.active > a:before, .post-404page #footer .footer-wrapper #main-menu ul.menu > li.active > a:before, .soap-login-page #footer .footer-wrapper #main-menu ul.menu > li.active > a:before {
+    right: 50%;
+    margin-right: -3px;
+	left: auto;
+	margin-left: auto;
+}
+
+.dashboard #footer .footer-wrapper #main-menu ul.menu > li:first-child.active > a:before, .post-404page #footer .footer-wrapper #main-menu ul.menu > li:first-child.active > a:before, .soap-login-page #footer .footer-wrapper #main-menu ul.menu > li:first-child.active > a:before {
+    margin-right: -13px;
+	margin-left: auto;
+}
+
+.ui-slider {
+    text-align: right;
+}
+
+.ui-slider.ui-slider-horizontal .ui-slider-handle {
+    margin-right: -10px;
+	margin-left: auto;
+}
+
+.datepicker-wrap .ui-datepicker-trigger {
+    left: 0;
+	right: auto;
+}
+
+.datepicker-wrap:after {
+    left: 0;
+	right: auto;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    right: 24px;
+	left: auto;
+}
+
+.ui-datepicker .ui-datepicker-prev:before {
+    border-left: 8px solid #fff;
+	border-right: none;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    left: 24px;
+	right: auto;
+}
+
+.ui-datepicker .ui-datepicker-next:before {
+    border-right: 8px solid #fff;
+	border-left: none;
+}
+
+.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-left: 5px solid #fdb714;
+    left: 4px;
+	right: auto;
+	border-right: none;
+}
+
+.ui-datepicker.yellow .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-left-color: #fdb714;
+}
+
+.ui-datepicker.green .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-left-color: #98ce44;
+}
+
+.ui-datepicker.blue .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-left-color: #01b7f2;
+}
+
+.ui-datepicker.dark-blue .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-left-color: #2d3e52;
+}
+
+#footer .travel-news li .thumb {
+    float: right;
+}
+
+#footer .travel-news li .description {
+    padding-right: 78px;
+	padding-left: 0;
+}
+
+#footer.style1 .footer-wrapper > .container:first-child:before {
+	right:0;
+	left: auto;
+}
+
+#footer.style1 .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+#footer.style2 .footer-wrapper > .container:first-child:before {
+	right:-20px;
+	left: auto;
+}
+
+#footer.style2 .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+#footer.style3 .footer-wrapper > .container:first-child:before {
+	right:-50px;
+	left: auto;
+}
+
+#footer.style3 .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+#footer.style4 > .footer-wrapper > .container:first-child:before {
+	right:-30px;
+	left: auto;
+}
+
+#footer.style4 > .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+#footer.style5 > .footer-wrapper > .container:first-child:before {
+	right:0;
+	left: auto;
+}
+
+#footer.style5 > .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+#footer.style6 > .footer-wrapper > .container:first-child:before {
+	right:0;
+	left: auto;
+}
+
+#footer.style6 > .footer-wrapper > .container:first-child:after {
+	left:0;
+	right: auto;
+}
+
+.destinations {
+    text-align: right;
+}
+
+.honeymoon {
+    text-align: right;
+}
+
+.travelo-process .process {
+    margin-right: -32.4px;
+    margin-left: -32.4px;
+}
+
+.travelo-process .process.first {
+    left: 85.3554%;
+    margin-right: 0;
+    text-align: left;
+	right: auto;
+	margin-left: auto;
+}
+
+.travelo-process .process.first .details {
+    padding-left: 8%;
+    padding-right: 0;
+}
+
+.travelo-process .process.second {
+    right: 85.3554%;
+    margin-left: 0;
+    text-align: right;
+	left: auto;
+	margin-right: auto;
+}
+
+.travelo-process .process.second .details {
+    padding-right: 8%;
+    padding-left: 0;
+}
+
+.travelo-process .process.third {
+    right: 85.3554%;
+    margin-left: 0;
+    text-align: right;
+	left: auto;
+	margin-right: auto;
+}
+
+.travelo-process .process.third .details {
+    padding-right: 8%;
+    padding-left: 0;
+}
+
+.travelo-process .process.forth {
+    left: 85.3554%;
+    margin-right: 0;
+    text-align: left;
+	right: auto;
+	margin-left: auto;
+}
+
+.travelo-process .process.forth .details {
+    padding-left: 8%;
+    padding-right: 0;
+}
+
+.service-page .services {
+    margin-left: -5px;
+	margin-right: auto;
+}
+
+.service-page .services article {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.gallery-filter a.button {
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.faqs .question-list .panel .panel-title {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+.faqs .question-list .panel .panel-title > a:before {
+    float: left;
+}
+
+.faqs .question-list .panel .panel-content {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+.faqs .faq-comment-container .question {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.faqs .faq-comment-container .faq-comment-header .button {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.faqs.style1 .question-list .panel .panel-title {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.faqs.style1 .question-list .panel .panel-title a:before {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.faqs.style1 .question-list .panel .panel-content {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.sitemap .column {
+    border-right: none;
+    margin-left: 10px;
+	margin-right: auto;
+	border-left: none;
+}
+
+.sitemap .column .title {
+    padding-left: 10px;
+    right: 0;
+	left: auto;
+	padding-right: 0;
+}
+
+.sitemap .column.sitemap-columns-2 > ul {
+    float: right;
+    border-left: 1px solid #01b7f2;
+	border-right: none;
+}
+
+.sitemap .column > ul > li {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.sitemap .column > ul.circle > li {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.post-404page.style2 .go-back {
+	padding-left:30px;
+	padding-right: 0;
+
+}
+.post-404page.style2 .go-back i {
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.post-404page.style3 .go-back i {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.post-404page.style3 .girl {
+    left: 0;
+	right: auto;
+}
+
+.coming-soon-page.style2 .email-notify .input-text{
+	padding-right: 40%;
+	padding-left: 0;
+}
+
+.coming-soon-page.style2 .email-notify .notified-text {
+	right:0;
+	left: auto;
+}
+
+.coming-soon-page.style2 .email-notify .notified-text small {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.coming-soon-page.style2 .email-notify .icon {
+    left: 10px;
+	right: auto;
+}
+
+.coming-soon-page.style3 .container:before{
+	right:-100px;
+	left: auto;
+}
+
+.coming-soon-page.style3 .couple {
+    left: -12%;
+	right: auto;
+}
+
+.loading-page {
+	right:0;
+}
+
+.loading-page .loading-progress-bar{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.loading-page.style2 .loading-percent {
+    left: 20px;
+	right: auto;
+}
+
+.loading-page.style3 .loading-percent {
+    left: 10px;
+	right: auto;
+}
+
+.loading-page.style3 .bottom-image {
+    right: 50%;
+    margin-right: -15%;
+	left: auto;
+	margin-left: auto;
+}
+
+.soap-login-page .login-form .checkbox {
+    text-align: right;
+}
+
+.soap-login-page.style2 .login-form .input-text {
+    padding-right: 195px;
+    padding-left: 25px;
+}
+
+.soap-login-page.style2 .login-form button {
+    padding-left: 50px;
+	padding-right: 0;
+}
+
+.soap-login-page.style2 .login-form button i {
+    left: 7px;
+	right: auto;
+}
+
+.soap-login-page.style2 .login-form .input-login label, .soap-login-page.style2 .login-form .input-password label {
+    right: 30px;
+	left: auto;
+}
+
+.soap-login-page.style2 .login-form .input-login label:after, .soap-login-page.style2 .login-form .input-password label:after {
+    margin-right: 15px;
+	margin-left: auto;
+}
+
+.soap-login-page.style3 .places {
+    left: 0;
+	right: auto;
+}
+
+.soap-login-page.style3 .plane {
+    float: left;
+}
+
+.more-popular-destinations .row {
+    margin-left: -16px;
+	margin-right: auto;
+}
+
+.more-popular-destinations ul {
+    border-left: 1px solid #fff;
+	border-right: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	.more-popular-destinations ul {
+		border-left: 1px solid #fff;
+		border-right: none;
+	}
+}
+
+.image-box .has-discount:before, .image-box .discount {
+	right:-4px;
+	left: auto;
+}
+
+.sidebar .widget-queries li i {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.travel-story-container .travel-story-content .avatar {
+    border-left: 1px solid #f5f5f5;
+    padding: 20px 10px 10px 20px;
+	border-right: none;
+}
+
+.travel-story-container .travel-story-meta .story-meta {
+    float: left;
+}
+
+.travel-story-container .travel-story-meta .story-meta > * {
+    margin-right: 8px;
+	margin-left: auto;
+}
+
+.travel-story-container .travel-story-meta .story-meta > * i {
+    float: right;
+    margin-left: 8px;
+	margin-right: auto;
+}
+
+.travel-story-container .travel-story-meta .travel-miles {
+    float: right;
+    margin-right: 5px;
+	margin-left: auto;
+}
+
+.travel-story-container .travel-story-meta .travel-miles i {
+    margin-left: 8px;
+    float: right;
+	margin-right: auto;
+}
+
+.travel-story-container .my-trip li {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+#travel-guide .sport-list [class^="col-"], #travel-guide .sport-list [class*=" col-"] {
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+.suggested-places ul.check-square li:before {
+    float: right;
+}
+
+.suggested-places ul.check-square li > a {
+    margin-right: 25px;
+	margin-left: auto;
+}
+
+.travel-ideas .idea-title .index {
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.travel-ideas .suggested-places .row {
+    margin: 0 -25px 0 -3px;
+}
+
+.travel-ideas .suggested-places [class^="col-"] {
+    padding-right: 25px;
+    padding-left: 0;
+    border-left: 1px solid #f5f5f5;
+	border-right: none;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+	.page-title-container.style4 .page-title {
+		margin-right: -15px;
+		padding-right: 15px;
+		padding-left: 0;
+		margin-left: auto;
+	}
+
+	dl.term-description dd {
+		padding-right: 20px;
+		padding-left: 0;
+	}
+
+	.hidden-table-sm.table-wrapper > .table-cell.pull-right, .hidden-table-sm.table-wrapper > .table-row > .table-cell.pull-right {
+		float: right !important;
+	}
+
+	.hidden-table-sm.table-wrapper > .table-cell.pull-left, .hidden-table-sm.table-wrapper > .table-row > .table-cell.pull-left {
+		float: left !important;
+	}
+
+	.travelo-policies ul.tabs.full-width > li a {
+		padding-right: 20px !important;
+		text-align: right;
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.tab-container ul.tabs.full-width > li a {
+		padding-right: 20px !important;
+		text-align: right;
+		padding-left: 0;
+	}
+
+	.tab-container.trans-style ul.tabs {
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+	.listing-style3.flight .details .time > div {
+		padding-right: 0 !important;
+		border-left: none !important;
+		padding-left: 0;
+		border-right: none;
+	}
+
+	.hidden-table-sms.table-wrapper > .table-cell.pull-right, .hidden-table-sms.table-wrapper > .table-row > .table-cell.pull-right {
+		float: right !important;
+	}
+
+	.hidden-table-sms.table-wrapper > .table-cell.pull-left, .hidden-table-sms.table-wrapper > .table-row > .table-cell.pull-left {
+		float: left !important;
+	}
+
+	.column-2 > * {
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.column-3 > *:nth-child(3n) {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.column-4 > *:nth-child(4n) {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.column-5 > * {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.column-5 > *:nth-child(5n) {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.column-5 > *:nth-child(3n) {
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.column-3 > *, .column-4 > * {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.column-3 > *:nth-child(2n), .column-4 > *:nth-child(2n) {
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.image-box.style2 .details {
+		padding-right: 20px;
+		padding-left: 0;
+	}
+
+	#tour-details .intro2 .price-section {
+		border-right: none;
+		text-align: right;
+		float: right !important;
+		padding-right: 20px;
+		padding-left: 0;
+		border-left: none;
+	}
+}
+
+/* updates */
+.chaser .logo a {
+    background-position: right center;
+}
